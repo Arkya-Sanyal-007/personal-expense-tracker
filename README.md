@@ -92,8 +92,6 @@ Ensure the final block in your Python file is:
 if __name__ == "__main__":
     main()
 ```
-**(Not "_name_")**
-
 ---
 ## 📜 License
 This project is open-source and available under the MIT License.
