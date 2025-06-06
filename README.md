@@ -92,7 +92,7 @@ Ensure the final block in your Python file is:
 if __name__ == "__main__":
     main()
 ```
-**(Not _name_)**
+**(Not "_name_")**
 
 ---
 ## 📜 License
