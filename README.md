@@ -34,13 +34,15 @@ python expense_tracker.py
 └── expenses.csv         # Auto-created, stores expense data
 ```
 ## 🧭 Menu Options
-After login, you can choose from:
+After logging, you can choose from:
 ==== Personal Expense Tracker ====
   1. Add Expense
   2. View All Expenses
   3. View Category Summary
   4. View Monthly Report
   5. Exit
+---
+
 ## 📊 Categories
 - Food
 - Travel
@@ -49,15 +51,55 @@ After login, you can choose from:
 - Miscellaneous
 You can customize these by modifying the categories list inside the script.
 
+---
 ## 📆 Example Output
 
 📋 All Expenses:
-
+```
 Date         Category        Amount    
 ----------------------------------------
 2025-06-01   Food            ₹120.00    
 2025-06-01   Bills           ₹450.00    
 ----------------------------------------
 Total Spending: ₹570.0
+```
+Monthly Report
+```yaml
+📆 Monthly Report for 06/2025:
 
+Date         Category        Amount    
+----------------------------------------
+2025-06-01   Food            ₹120.00    
+2025-06-01   Bills           ₹450.00    
+----------------------------------------
+Total: ₹570.0
 
+📊 Category Breakdown:
+Food            : ₹120.0
+Bills           : ₹450.0
+
+```
+---
+## ✅ To Do
+-  Add support for deleting/editing expenses
+- Add custom category input
+- Export reports to Excel/PDF
+- Build a simple GUI using Tkinter
+---
+## ❗ Fix Reminder
+Ensure the final block in your Python file is:
+```
+if __name__ == "__main__":
+    main()
+```
+**(Not _name_)**
+
+---
+## 📜 License
+This project is open-source and available under the MIT License.
+
+---
+## 🙌 Contribute
+Contributions are welcome! Fork the repo and submit a pull request 🚀
+
+---
