@@ -34,7 +34,8 @@ python expense_tracker.py
 └── expenses.csv         # Auto-created, stores expense data
 ```
 ## 🧭 Menu Options
-After logging, you can choose from:
+After logging in, you can choose from:
+
 ==== Personal Expense Tracker ====
   1. Add Expense
   2. View All Expenses
