@@ -27,7 +27,37 @@ A simple Python-based command-line application for tracking your daily expenses 
 ```bash
 python expense_tracker.py
 ```
+## 📂 File Structure
+```bash
 .
 ├── expense_tracker.py   # Main Python file
 └── expenses.csv         # Auto-created, stores expense data
+```
+## 🧭 Menu Options
+After login, you can choose from:
+==== Personal Expense Tracker ====
+  1. Add Expense
+  2. View All Expenses
+  3. View Category Summary
+  4. View Monthly Report
+  5. Exit
+## 📊 Categories
+- Food
+- Travel
+- Bills
+- Netflix
+- Miscellaneous
+You can customize these by modifying the categories list inside the script.
+
+## 📆 Example Output
+
+📋 All Expenses:
+
+Date         Category        Amount    
+----------------------------------------
+2025-06-01   Food            ₹120.00    
+2025-06-01   Bills           ₹450.00    
+----------------------------------------
+Total Spending: ₹570.0
+
 
