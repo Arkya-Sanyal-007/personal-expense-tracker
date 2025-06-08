@@ -50,6 +50,7 @@ After logging in, you can choose from:
 - Bills
 - Netflix
 - Miscellaneous
+<br>
 You can customize these by modifying the categories list inside the script.
 
 ---
