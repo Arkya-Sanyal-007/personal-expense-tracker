@@ -51,7 +51,7 @@ After logging in, you can choose from:
 - Netflix
 - Miscellaneous
 <br>
-You can customize these by modifying the categories list inside the script.
+Note: You can customize these categories by modifying the categories list inside the script.
 
 ---
 ## 📆 Example Output
